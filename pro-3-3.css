@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(243, 239, 234);
+}
+.sp{
+    background-color: hsl(180, 6%, 80%);
+    padding: 8px;
+    font-family: serif;
+    letter-spacing: 0.1rem;
+}
+.nav-1{
+    /* background-color: aquamarine; */
+    font-family: serif;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+}
+.nav-2{
+    /* background-color: rgb(147, 147, 203); */
+    align-items: center;
+}
+
+.imgtag img{
+    width:50%;
+    height: 380px;
+    text-align: center;
+}
+#imgtag img{
+    width: 100%;
+    height: 900px;
+    /* background-color: #f1400a; */
+}
+#imgcontent{
+    font-family: serif;
+    /* background-color: hwb(158 7% 11%); */
+    font-size: 1.1rem;
+    /* text-align: center; */
+}
+#buy{
+    width: 50%;
+    height: 50px;
+    background-color: #4646f5;
+    color: white;
+}
+
+#priceinput{
+    width: 20%;
+    height: 50px;
+ }
+#input{
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+#imgtag-1 img{
+    width: 10%;
+    padding: 20px;
+}
+
+#input-1{
+    width: 50%;
+    height: 50px;
+}
+#input-2{
+    width: 70%;
+    height: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-family: serif;
+}
+.seven{
+    font-family: serif;
+    font-size: 1.2rem;
+}
+/* .ptag{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(106, 174, 234);
+} */
+.uma{
+    display: none;
+    cursor: pointer;
+   }
+   .droup li:nth-child(2):hover .uma{
+    display: block;
+    cursor: pointer;
+   }
+   .contact{
+    font-family: serif;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    
+ }
+ .contact p{
+    margin: 10px;
+    font-family: serif;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+ }
+ #contact-2{
+     align-items: end;
+     letter-spacing: 2.5rem;
+ }
+  #input-3{
+    width: 60%;
+    height: 50px;
+    border-radius: 15px;
+  }
+  .contact-3{
+    font-family: serif;
+    font-size: 0.4rem;
+  }  
+  
+
+  .fa-heart:hover{
+color: red;
+  }
