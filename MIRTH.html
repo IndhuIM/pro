@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRTH ONE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        /* list-style: none; */
+        box-sizing: border-box;
+    }
+
+    .fixed {
+        position: fixed;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 1px solid black;
+        padding: 2px;
+        background-color: black;
+        color: white;
+        width: 13.5%;
+        height: 30px;
+        letter-spacing: 0.2rem;
+    }
+
+    .fa-heart:hover {
+        cursor: pointer;
+        color: red;
+    }
+    @media (max-width:1500px) {
+        .fixed {
+            display: none;
+        }
+    }
+
+
+    .para-1 {
+        position: relative;
+        position: fixed;
+
+    }
+    p,li,h1{
+        font-family: serif;
+        letter-spacing: 0.1rem;
+    }
+    #input-1{
+        width: 50%;
+        height: 50px;
+    }
+    #input-0{
+        width: 10%;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    #input-2{
+        width: 40%;
+        height: 50px;
+    }
+    #buy{
+        border: 1px solid black;
+        background: hsl(263, 91%, 29%);
+        height: 50px;
+    }
+.imgtag-1{
+    height: 50px;
+    width: 20%;
+    background-color: aqua;
+ }  
+ .uma{
+    display: none;
+    cursor: pointer;
+   }
+   .droup li:nth-child(2):hover .uma{
+    display: block;
+    cursor: pointer;
+   }
+</style>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-12 text-center"
+                style="font-family: serif; letter-spacing: 0.1rem;background-color: #d3cdc5;padding: 5px;">
+                <div class="spring">SPRING has sprung! New finds are arriving daily for your next event,Vacation or
+                    homerefersh!<i class="fa-solid fa-arrow-right-long" style="font-size: 20px;padding: 5px;"></i></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-12 text-center" style="font-family: serif;letter-spacing: 0.1rem;">Congratulation! yo've
+                got a free shipping!</div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-3" style="background-color: rgb(218, 216, 214);">
+        <div class="row  text-center" style="align-items: center;">
+
+            <div class="col-lg-3"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="col-lg-6"><img src="img/PrimaryLogoGrey_62bd63e9-f2d9-4852-8922-4f1fca4357b6_250x@2x.webp"
+                    width="40%"></div>
+            <div class="col-lg-1"><i class="fa-solid fa-user"></i></div>
+            <div class="col-lg-1"><i class="fa-brands fa-shopify"></i></div>
+
+        </div>
+    </div>
+
+    <div class="fixed">
+        <p><i class="fa-solid fa-heart"></i>MY WHISHLISHT</p>
+    </div>
+
+
+
+    <div class="container-fluid" style="background-color: rgb(218, 216, 214); padding: 10px;">
+        <div class="container text-center mt-5">
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-">Home</button>
+                <button type="button" class="btn btn- dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Bestseller</a>
+                    <a class="dropdown-item" href="#">Decor</a>
+                    <a class="dropdown-item" href="#">Decor</a>
+                    <a class="dropdown-item" href="#">Decor</a>
+                    <a class="dropdown-item" href="#">Decor</a>
+                </div>
+
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-">Apparel</button>
+                <button type="button" class="btn btn-  dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Tops</a>
+                    <a class="dropdown-item" href="#">Seats</a>
+                    <a class="dropdown-item" href="#">Swin</a>
+                    <a class="dropdown-item" href="#">Outwera</a>
+                    <a class="dropdown-item" href="#">Evening Wear</a>
+
+                </div>
+            </div>
+
+            <div class="btn-group ">
+                <button type="button" class="btn btn-">Accessories</button>
+                <button type="button" class="btn btn-  dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Jewwllary</a>
+                    <a class="dropdown-item" href="#">Footwear</a>
+                    <a class="dropdown-item" href="#">Handbag</a>
+                    <a class="dropdown-item" href="#">Hats</a>
+                    <a class="dropdown-item" href="#">Belts</a>
+
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-">Brands</button>
+                <button type="button" class="btn btn- dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Mirth</a>
+                    <a class="dropdown-item" href="#">celobella</a>
+                    <a class="dropdown-item" href="#">Citizen of humminity</a>
+                    <a class="dropdown-item" href="#">joes jeans</a>
+                    <a class="dropdown-item" href="#">LBI Collection</a>
+                    <a class="dropdown-item" href="#">shohanna</a>
+
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-">Design</button>
+                <button type="button" class="btn btn- dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Tops</a>
+                    <a class="dropdown-item" href="#">Jeans</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 mt-5">
+
+                <div class="col-lg-12"><img src="img/MIRTH-2.webp" width="100%" height="500px"> <img
+                        src="img/MIRTH-3.webp" width="100%" height="700px"></div>
+            </div>
+
+            <div class="col-lg-5 mt-5 " style="position: fixed; position: relative;">
+                <p>LBI Collection</p>
+                <h1>Alabaster Luxury Candle by Leah Bailey</h1>
+                <p>$45.00 USD</p>
+                <li>Shipping calculated at checkout.</li>
+                <p>Pay in 4 interest-free installments for orders over $50.00 with Learn more</p>
+                <p>Size</p>
+                <input type="text" placeholder="9 OZ" id="input-0"> <input type="text" placeholder="18 OZ" id="input-0">
+                <p>Quantity:</p>
+                <input type="text" placeholder="enter your quty" id="input-1"><br><br>
+                <input type="text" placeholder="Add to Cart" id="input-1"><br><br>
+                <input type="text" placeholder="Buy with Shoppy PAY" id="buy"><br>
+                <a href="">More Payment Option</a>
+                <input type="checkbox">
+
+                <p><i class="fa-regular fa-heart"></i>Add To Whishlisht</p>
+                <p> <i class="fa-solid fa-check"></i> Pickup available at Bluffton</p>
+                <p>Usually ready in 24 hours</p>
+                <a href=""> Check availability in oathr store</a>
+                <p id="p">Designed exclusively by Leah Bailey for Leah Bailey Interiors. Enjoy this custom scent
+                    carefully curated to enjoy in your home. Gorgeously poured into a custom white glass jar with gold
+                    wax stamp embossing. </p>
+                <p>Available in 9oz or 18oz.</p>
+                <p>Bring vintage Parisian style to your wardrobe with the Peggy short-sleeved blouse. Inspired by our
+                    founder's most stylish muse, her mother, Peggy, this blouse adds feminine charm to any outfit. The
+                    lightweight linen fabric keeps you cool, while the modern details like the smocked cuffs and neck
+                    bow-tie add an elegant, polished look. Dress it up with our LBell Fleur de Provence skirt or jeans
+                    for an effortless weekend look.</p>
+                    <ul>
+                        <li>Smocked and embroidered cuff</li>
+                        <li>Self-covered buttons</li>
+                        <li>Side vents and back box pleat</li>
+                        <li>Self-tie bow neckline</li>
+                        <li>Light, airy linen fabric</li>
+                        <li>55% Linen, 45% Rayon</li>
+                    </ul>
+                <p><i class="fa-solid fa-share-from-square"></i><a href="https://www.instagram.com/">Share</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid ">
+        <div class="row">
+
+            <div class="col-lg-12 text-center mt-5">
+                    <p>THESE WOULD GO TOGETHER PERFECTLY...</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+                <div class="col-lg-3"><img src="img/MIRTH 1.webp" width="100%" height="200px"></div>
+                <div class="col-lg-3"><img src="img/MIRTH-2.webp" width="100%" height="200px"></div>
+                <div class="col-lg-3"><img src="img/MIRTH-3.webp" width="100%" height="200px"></div>
+                <div class="col-lg-3"><img src="img/MIRTH 1.webp" width="100%" height="200px"></div>
+
+        </div>
+    </div>  
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-12 mt-3 text-center">
+                <b style="text-decoration: line-through;">Total Price $1500.00</b>
+                <b>---Total Price:$920.00</b>
+                <div><input type="text" placeholder="Add to Cart" id="input-1"><br>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-flui">
+        <div class="row">
+            <div class="col-lg-6 mt-5">
+                <ul class="menu mt-3">
+                    <li> <input type="checkbox">This item: Alabaster Luxury candle by leah bailey $45.00</li>
+                    <li><input type="text" placeholder="size" id="input-2">
+                        <ul  class="uma">
+                            <li><input type="text" value="9OZ" id="input-2" > </li>
+                            <li><input type="text" value="18OZ" id="input-2"></li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+                     <div class="col-lg-6 droup mt-5">
+
+                            <ul class="menu">
+                                <li> <input type="checkbox">This item: Alabaster Luxury candle by leah bailey $45.00</li>
+                                <li><input type="text" placeholder="size" id="input-2">
+                                    <ul  class="uma">
+                                        <li><input type="text" value="9OZ" id="input-2" > </li>
+                                        <li><input type="text" value="18OZ" id="input-2"></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <div class="container-fluid" style="background-color: hsl(180, 2%, 22%); color: white;">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="contact mt-5">
+                <p style="font-weight: bolder;">FQA</p>
+                <p>FQA-1</p>
+                <p>Return Policy</p>
+                <p>Links</p>
+                <p>icons</p>
+                <p>Search</p>
+                <p>Search</p>
+                <p>Search</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="contact mt-5">
+                <p style="font-weight: bolder;">Search</p>
+                <p>Contact Us</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Design</p>
+                <p>Blog</p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="contact mt-5">
+                <p style="font-weight: bolder;">Leah Bailey Interiors- A Lifestyle Boutique</p>
+                <p>1299 May River Road, Bluffton, SC 29910</p>
+                <p>2514 Abercorn St, Ste 120, Savannah, GA 31401</p>
+                <p>Boutique Hours:</p>
+                <p>Monday - Friday 10 to 5 and Sat 11 to 4</p>
+                <!-- <p>support@leahbaileyinteriors.com</p> -->
+                <p>Bluffton Phone: 843.707.7727</p>
+                <p>Savannah Phone: 912.239.4123</p>
+            </div>
+        </div>
+       
+
+
+
+
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <p>Sign up for VIP status here:</p>
+                            <input type="Email" placeholder="Email" id="input-3">
+                        </div>
+                        <div class="col-lg-3 text-end" style="letter-spacing: 1.5rem;">
+                            <i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-square-facebook"></i><i
+                            class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p> Country/Region:</p>
+                        <input type="text"  placeholder="Country " id="input-4" >
+                        </div>
+                        <div class="col-lg-6 text-end " style="font-size: 0.9rem;">
+                            <p>© 2024, Leah Bailey Interiors Powered by Shopify</p>
+
+                        </div>
+                    </div>
+                </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
